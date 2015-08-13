@@ -6,7 +6,7 @@ PATH
       opal-activesupport (~> 0)
       react-jsx (~> 0.8.0)
       react-source (~> 0.13)
-      sprockets (> 2)
+      sprockets (>= 2.2.3, < 3.0.0)
       therubyracer (~> 0)
 
 GEM
