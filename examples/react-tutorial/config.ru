@@ -10,11 +10,8 @@ opal = Opal::Server.new {|s|
   s.main = 'example'
   s.debug = true
   s.index_path = "index.html.erb"
+  s.source_map = true
 }
-
-map opal.source_maps.prefix do
-  run opal.source_maps
-end
 
 map '/assets' do
   run opal.sprockets
